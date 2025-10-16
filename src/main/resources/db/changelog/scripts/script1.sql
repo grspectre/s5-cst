@@ -1,6 +1,6 @@
-CREATE SCHEMA utmn;
+CREATE SCHEMA IF NOT EXISTS utmn;
 
-CREATE TABLE utmn.student
+CREATE TABLE IF NOT EXISTS utmn.student
 (
     id                         bigserial                           NOT NULL,
     fio                        varchar(128)                        NOT NULL
